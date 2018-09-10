@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DST Gestion des stocks</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+    <section id="section">
+    <nav>
+      <h1 id="logo">BizOnline</h1>
+    </nav>
+<table id="table">
+  <thead>
+      <tr id="margin-tr">
+          <th colspan="2" id="the">Gestion du stock C.R.U.D</th>
+      </tr>
+      <tr id="colonne">
+          <th>id</th>
+          <th>marque</th>
+          <th>nom</th>
+          <th>prix</th>
+          <th>description</th>
+          <th>edit</th>
+      </tr>
+  </thead>
+  <tbody id="insideTbody">
+
+  </tbody>
+  <!-- <tfoot>
+      <tr>
+          <td colspan="2">The table footer</td>
+      </tr>
+  </tfoot> -->
+</table>
+<div id="input">
+<!-- <input type="text" name="marque" value="" placeholder="Marque" id="input_marque"> -->
+<input type="text" name="nom" value="" placeholder="Nom" id="input_nom" required>
+<input type="number" name="prix" value="" placeholder="Prix" id="input_prix" required>
+<input type="text" name="description" value="" placeholder="Description" id="input_description" required>
+<input type="submit" name="valider produit" value="Valider produit" id="btn_valider">
+<input type="submit" name="supprimer produit" value="Supprimer produit" id="btn_supprimer">
+</div>
+</section>
+  </body>
+</html>
